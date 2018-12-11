@@ -1,24 +1,39 @@
 body {
-    background-color: gray;
+    background-image: url("assets/images/circuit.png");
 }
 
-h4 {
+.myName {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    display: inline-block;
+}
+.foot-text {
+    color: #ffffff;
+    font-size: 12px;
+    align-content: center;
+}
+h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 800;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
-
-.container {
+.mainInfo {
     background-color: #ffffff;
     margin-top: 50px;
-}
+    padding: 25px;
 
-.myimage {
-    width: 100px;
-    height: auto;
 }
-
-@media (min-width: 500px) {
-    .myimage {
-        width: 250px;
-    }
+img {
+    margin-right: 20px;
 }

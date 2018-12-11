@@ -1,5 +1,5 @@
 body {
-    background-image: url("assets/images/circuit.png");
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/circuit.png");
 }
 
 .myName {
@@ -12,7 +12,6 @@ body {
     padding-right: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
-    display: inline-block;
 }
 .foot-text {
     color: #ffffff;
@@ -36,4 +35,50 @@ h2 {
 }
 img {
     margin-right: 20px;
+}
+.form-box {
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 25px;
+}
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 700px) {
+    img {
+        width: 200px;
+    }
+    img .myPic {
+        width: 200px;
+    }
+}
+@media (min-width: 800px) {
+    img {
+        width: 350px;
+    }
+    img .myPic {
+        width: 200px;
+    }
+}
+@media (min-width: 1000px) {
+    img {
+        width: 217px;
+    }
+    img .myPic {
+        width: 200px;
+    }
+}
+@media (min-width: 1300px) {
+    img {
+        width: 270px;
+    }
+    img .myPic {
+        width: 200px;
+    }
 }
